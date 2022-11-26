@@ -1,0 +1,31 @@
+@media (min-width: 768px) {
+  .swiper-wrapper {
+    flex-wrap: wrap;
+    row-gap: 16px;
+    column-gap: 24px;
+  }
+
+  #swiper {
+    padding: 24px;
+    height: 162px;
+    overflow-y: hidden;
+  }
+
+  #swiper.swiper-visible {
+    height: auto;
+    overflow-y: auto;
+  }
+
+  .swiper-wrapper::after {
+    display: none;
+  }
+
+  .swiper-pagination {
+    display: none;
+  }
+
+  .content__btn-more {
+    display: flex;
+    padding-left: 24px;
+  }
+}
